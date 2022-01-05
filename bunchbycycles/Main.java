@@ -9,6 +9,11 @@ public class Main {
 
   static CountsByUsage countBatteriesByUsage(int[] cycles) {
     CountsByUsage counts = new CountsByUsage();
+    switch(counts)
+    {
+      case '1':return "high,more than 920 times;
+        case '2':return "medium,between 400 and 919 times";
+      case '3':return "low,less than 400 times";
     return counts;
   }
 
